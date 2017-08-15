@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		D34F34491F41D5550049CFA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F34481F41D5550049CFA3 /* AppDelegate.swift */; };
-		D34F344B1F41D5550049CFA3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F344A1F41D5550049CFA3 /* FirstViewController.swift */; };
-		D34F344D1F41D5550049CFA3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F344C1F41D5550049CFA3 /* SecondViewController.swift */; };
 		D34F34501F41D5550049CFA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34F344E1F41D5550049CFA3 /* Main.storyboard */; };
 		D34F34521F41D5550049CFA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34F34511F41D5550049CFA3 /* Assets.xcassets */; };
 		D34F34551F41D5550049CFA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34F34531F41D5550049CFA3 /* LaunchScreen.storyboard */; };
+		D34F345F1F41D5E70049CFA3 /* BeerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F345E1F41D5E70049CFA3 /* BeerCollectionViewController.swift */; };
+		D34F34611F41D6200049CFA3 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F34601F41D6200049CFA3 /* Beer.swift */; };
+		D34F34631F421A4C0049CFA3 /* FoodCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F34621F421A4C0049CFA3 /* FoodCollectionViewController.swift */; };
+		D34F34651F42273E0049CFA3 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34F34641F42273E0049CFA3 /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D34F34451F41D5550049CFA3 /* MeanFiddler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeanFiddler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34F34481F41D5550049CFA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D34F344A1F41D5550049CFA3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D34F344C1F41D5550049CFA3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D34F344F1F41D5550049CFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D34F34511F41D5550049CFA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D34F34541F41D5550049CFA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D34F34561F41D5550049CFA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D34F345E1F41D5E70049CFA3 /* BeerCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeerCollectionViewController.swift; path = ../BeerCollectionViewController.swift; sourceTree = "<group>"; };
+		D34F34601F41D6200049CFA3 /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Beer.swift; path = ../Beer.swift; sourceTree = "<group>"; };
+		D34F34621F421A4C0049CFA3 /* FoodCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewController.swift; sourceTree = "<group>"; };
+		D34F34641F42273E0049CFA3 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Food.swift; path = ../Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		D34F34471F41D5550049CFA3 /* MeanFiddler */ = {
 			isa = PBXGroup;
 			children = (
+				D34F345E1F41D5E70049CFA3 /* BeerCollectionViewController.swift */,
+				D34F34621F421A4C0049CFA3 /* FoodCollectionViewController.swift */,
+				D34F34641F42273E0049CFA3 /* Food.swift */,
+				D34F34601F41D6200049CFA3 /* Beer.swift */,
 				D34F34481F41D5550049CFA3 /* AppDelegate.swift */,
-				D34F344A1F41D5550049CFA3 /* FirstViewController.swift */,
-				D34F344C1F41D5550049CFA3 /* SecondViewController.swift */,
 				D34F344E1F41D5550049CFA3 /* Main.storyboard */,
 				D34F34511F41D5550049CFA3 /* Assets.xcassets */,
 				D34F34531F41D5550049CFA3 /* LaunchScreen.storyboard */,
@@ -140,9 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D34F344D1F41D5550049CFA3 /* SecondViewController.swift in Sources */,
+				D34F345F1F41D5E70049CFA3 /* BeerCollectionViewController.swift in Sources */,
+				D34F34631F421A4C0049CFA3 /* FoodCollectionViewController.swift in Sources */,
+				D34F34651F42273E0049CFA3 /* Food.swift in Sources */,
 				D34F34491F41D5550049CFA3 /* AppDelegate.swift in Sources */,
-				D34F344B1F41D5550049CFA3 /* FirstViewController.swift in Sources */,
+				D34F34611F41D6200049CFA3 /* Beer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
